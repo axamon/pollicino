@@ -38,7 +38,7 @@ html, body {
       display: block;
       position: fixed;
       top: 2px;
-      font-size: clamp(4rem, 5vw, 6rem);
+      font-size: clamp(2rem, 5vw, 4rem);
       color: white;
       font-family: 'Square Peg', cursive;
       opacity: 0.9; }
