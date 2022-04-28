@@ -4,7 +4,7 @@ export const Lavori = () => {
   return (
     <>
     <div> 
-      <h1 id="title">Lavori in corso...</h1>
+      <h1 className="col-xs-12" id="title">Lavori in corso...</h1>
     </div>
 
     <input type="checkbox" id="shadows"  checked /><label for="shadows"></label>
@@ -371,8 +371,8 @@ export const Lavori = () => {
       </div>
     </div>
 
-    <footer>
-      <p>&copy; 2022 Pollicino Green</p>
+    <footer className="col-xs-12">
+      <p><small>&copy; 2022 Pollicino Green</small></p>
      </footer>
     </>
   )

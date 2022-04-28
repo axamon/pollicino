@@ -33,7 +33,7 @@ html, body {
   
   #title {
     z-index: 1;
-    margin-left: -80px;
+    /* margin-left: -80px; */
       text-align: center;
       display: block;
       position: fixed;
