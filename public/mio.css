@@ -32,13 +32,10 @@ html, body {
   }
   
   #title {
-    z-index: 1;
-    /* margin-left: -80px; */
-      text-align: center;
-      display: block;
-      position: fixed;
-      top: 2px;
-      font-size: clamp(2rem, 5vw, 4rem);
+    /* z-index: 1; */
+    position: fixed;
+      top: 10px;
+      font-size: clamp(4vw, 5vw, 6vw);
       color: white;
       font-family: 'Square Peg', cursive;
       opacity: 0.9; }
