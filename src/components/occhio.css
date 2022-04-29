@@ -1,0 +1,40 @@
+img {
+    border-radius: 100%;
+    opacity: 0.7;
+}
+
+#occhio {
+  max-width: 500px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  animation-name: occhio;
+  animation-duration: 2000ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 800ms;
+  animation-fill-mode: forwards;
+  transform: scale(0);
+}
+
+@keyframes occhio {
+    0% {
+        transform: scale(0);
+    }
+
+    10% {
+        transform: rotate(45deg)
+    }
+
+    70% {
+        transform: scale(1.6);
+    }
+
+    80% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
