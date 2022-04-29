@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import occhio from './blueeye.png'
 import './occhio.css'
-import starticon from './starticon.webp'
+import starticon from './power-icon.png'
 
 export class Occhio extends Component {
   render() {
