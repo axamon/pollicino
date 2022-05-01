@@ -4,6 +4,7 @@ import { Lavori } from './components/Lavori'
 import Occhio from './components/Occhio';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Perpetual from './components/Perpetual';
 
 
 function App() {
@@ -14,8 +15,12 @@ function App() {
       {/* <h1 id="title">Lavori in corso...</h1> */}
      {/* <Lavori /> */}
     </div>
+    <div id="axios">
+      <Perpetual cid="QmThsu1htroEEDSmQZ8r48F1Wmzjw2fuj7tt8F8PbzXuYH" />
+    </div>
     <Occhio />
     <Footer />
+
   </>
   );
 }
